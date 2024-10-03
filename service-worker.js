@@ -4,7 +4,7 @@ self.addEventListener('install', (event) => {
         caches.open('pwa-cache-v2').then((cache) => {
             // Añadir archivos esenciales a la caché
             return cache.addAll([
-                '/',
+                '/examen_pwa/',
                 '/examen_pwa/script.js',
                 '/examen_pwa/style.css',
                 '/examen_pwa/index.html',
