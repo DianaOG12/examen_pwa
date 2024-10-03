@@ -5,10 +5,10 @@ self.addEventListener('install', (event) => {
             // Añadir archivos esenciales a la caché
             return cache.addAll([
                 '/',
-                '/script.js',
-                '/style.css',
-                '/index.html',
-                '/manifest.json'  
+                '/examen_pwa/script.js',
+                '/examen_pwa/style.css',
+                '/examen_pwa/index.html',
+                '/examen_pwa/manifest.json'  
             ]);
         }).catch((error) => {
             console.error('Error al abrir la caché: ', error);
